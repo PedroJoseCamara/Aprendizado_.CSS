@@ -5,6 +5,7 @@ body{
 .titulos {
     background-color: aqua; /*a tag "background-color" é usada para mudar a cord da "parte de trás" dos itens digitados ou anexados*/
     text-align: center; /*a tag "text-align" é usada para que voce consiga posicionar o texto em algum local da pagina */
+    margin-bottom: 0px; /*A tag "margin" é utilizada para nivelar a margem das seções presentes na página*/
 }
 
 #titulos{

@@ -1,15 +1,11 @@
 body{
-    margin: 0px;
+    margin: 50  px;
 }
 
 .titulos {
     background-color: aqua; /*a tag "background-color" é usada para mudar a cord da "parte de trás" dos itens digitados ou anexados*/
     text-align: center; /*a tag "text-align" é usada para que voce consiga posicionar o texto em algum local da pagina */
-    margin-bottom: 0px; /*A tag "margin" é utilizada para nivelar a margem das seções presentes na página*/
-}
-
-#titulos{
-    background-color: brown;
+    margin-bottom: 0px; /*A tag "margin" é utilizada para nivelar a margem das seções presentes na página*/   
 }
 
 .container {
@@ -20,4 +16,5 @@ body{
     background-color: black;
     color: white; /*a tag "color" é usado para mudar a cor do item digitado ou anexado em si*/
     font-style: italic; /*A tag "font-style" ela retorna algumas opções onde voce pode alterar a fonte do que foi escrito*/
-}
+    margin-top: 0px;
+    }

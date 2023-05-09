@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+
+.titulos {
+    background-color: aqua; /*a tag "background-color" é usada para mudar a cord da "parte de trás" dos itens digitados ou anexados*/
+    text-align: center; /*a tag "text-align" é usada para que voce consiga posicionar o texto em algum local da pagina */
+}
+
+#titulos{
+    background-color: brown;
+}
+
+.container {
+    background-color: blueviolet;
+}
+
+.parágrafos {
+    background-color: black;
+    color: white; /*a tag "color" é usado para mudar a cor do item digitado ou anexado em si*/
+    font-style: italic; /*A tag "font-style" ela retorna algumas opções onde voce pode alterar a fonte do que foi escrito*/
+}

@@ -1,0 +1,30 @@
+<!-- Ao colocar no "Head" a alteração do CSS ela irá alterar todas as tags similares a que voce colocou, porém ao colocar no "body" em alguma tag específica ele irá apenas alterá-la naquela tag e em nenhuma outra que vier adiante -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- O arquivo CSS geralmente fica em um outro arquivo como por exemplo um "arquivo.html" -->
+        </head>
+        <body>
+            <div>
+                <h1 style="background-color: blue;">EU te amo</h1> <!-- Outra forma que conseguimos alterar é comentando na prórpira TAG mesmo a alteração da cor ou algo do tipo -->
+            </div>
+            <div class="container"> <!-- Ao colocar a class"container" logo apos o div, aquilo fará com que a máquina entende que tudo que for escrito lá fará parte do container ou seja, se colocar no CSS para alterar o container de uma determinada cor, aquela cor ficará idenitca para todas as linhas abaixo dele -->
+                <h1 class="titulos"> Maria Luiza</h1> <!-- Sempre que definir uma class, todas os itens com classes iguais ficarma da cor selecionada, cor ou alteração na class -->
+                <p class="parágrafos">
+                    Eu amo minha namorada
+                </p>
+            </div>
+            <div class="container">
+                <h1 id="titulos"> Maria Luiza</h1> <!-- A forma correta de especificar a linha ou a palvra que é usada na página é atravé do "id" onde definimos apenas um elemento diferente do "class" que é mais de um /// outra informação é que no arquivo .css o "id" tem sua identificação como "#" e não "." igul a identificação do class -->
+                <p class="parágrafos">    
+                    Eu amo minha namorada
+                </p>
+            </div>
+
+        </body>
+</html>

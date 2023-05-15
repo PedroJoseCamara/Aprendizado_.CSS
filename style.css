@@ -34,7 +34,8 @@ body{
 
 /*Modificação na cor dos links*/
 
-a:link {color:#FF0000;}
-a:visited{color:#00FF00}
-a:hover{color:#ff00ff}
-a:active{color:#0000ff}
+a:link {color:#FF0000;} /*Link ainda não visitado*/
+a:visited{color:#00FF00} /*Link já visitado*/
+a:hover{color:#ff00ff} /*Mouse em cima do link*/
+a:active{color:#0000ff} /*Link Selecionado*/
+ 

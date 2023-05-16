@@ -15,7 +15,7 @@ body{
 .container {
     background-color: blueviolet;
     border-left: #084 5px solid; /*A ta "borda" define uma cor ou algo do tipo para a borda daquela determinada palavra ou setor*/
-    display:block; /* A tag "display" é o modo é que ficam os itens em suas separações  */
+    display:block; /* A tag "display" é o modo é que ficam os itens em suas separações a tag "DISPLAY FLEX" faz com que a lista ou a informação que esteja na página fica centralizada por assim dizer numa horizontal*/
 
     position: relative; /* O termo "position: relative" ele exerce a função de dar [vida] ao "left,top" para que assim funcione a ordem solicitada*/
     left: 100px; /* Os termos "left, top" são usado pra definiar a distancia em que vc quer deixar da borda aquele determinado item */

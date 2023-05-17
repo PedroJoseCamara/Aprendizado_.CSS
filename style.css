@@ -11,19 +11,11 @@ title{
     background-color: aqua; /*a tag "background-color" é usada para mudar a cord da "parte de trás" dos itens digitados ou anexados*/
     text-align: center; /*a tag "text-align" é usada para que voce consiga posicionar o texto em algum local da pagina */
     margin-bottom: 0px; /*A tag "margin" é utilizada para nivelar a margem das seções presentes na página*/   
-    padding-left: 100px; /*A tag "padding é usada para definir um espaçamento dentro de determinada caixa de mensagem que lá apareça"*/
-    width: 100px; /*A tag "width" determina o compriento daquele item a qual se refere */
-    height: 200px; /* A tag "height" detrmina a alutra daquele item a qual se refere*/
 }
 
 .container {
-    background-color: rgb(0, 0, 0);
-    border-left: #084 5px solid; /*A ta "borda" define uma cor ou algo do tipo para a borda daquela determinada palavra ou setor*/
-    display:block; /* A tag "display" é o modo é que ficam os itens em suas separações a tag "DISPLAY FLEX" faz com que a lista ou a informação que esteja na página fica centralizada por assim dizer numa horizontal*/
-
-    position: relative; /* O termo "position: relative" ele exerce a função de dar [vida] ao "left,top" para que assim funcione a ordem solicitada*/
-    left: 100px; /* Os termos "left, top" são usado pra definiar a distancia em que vc quer deixar da borda aquele determinado item */
-    top: 100px; /* Ao definir o "left, top" se tentar inserir o "right, bottom" ele apenas igrnorará as ordens lá apredentada, porém se apagar o left, top e inserir o right bottom ai sim ele entenderá e exercerá uma nova ação*/    
+    background-color: blueviolet;
+    border: aqua;
 }
 
 .parágrafos {
@@ -33,6 +25,27 @@ title{
     margin-top: 0px;
 }
 
+
+/*Modificação na cor dos links*/
+
+
+a:link {color:#FF0000;} /*Link ainda não visitado*/
+a:visited{color:#00FF00} /*Link já visitado*/
+a:hover{color:#ff00ff} /*Mouse em cima do link*/
+a:active{color:#0000ff} /*Link Selecionado*/
+
+h1 a:link, a:visited {
+        background-color: #f44336;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration:none;
+        display:inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: red;
+      }    
 
 /*Modificação na cor dos links*/
 

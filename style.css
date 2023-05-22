@@ -1,16 +1,19 @@
-body{
-    margin: 50  px;
+body {
+    margin: 50 px;
 }
 
-title{
+title {
     background-color: #0000ff;
     color: black;
 }
 
 .titulos {
-    background-color: aqua; /*a tag "background-color" é usada para mudar a cord da "parte de trás" dos itens digitados ou anexados*/
-    text-align: center; /*a tag "text-align" é usada para que voce consiga posicionar o texto em algum local da pagina */
-    margin-bottom: 0px; /*A tag "margin" é utilizada para nivelar a margem das seções presentes na página*/   
+    background-color: aqua;
+    /*a tag "background-color" é usada para mudar a cord da "parte de trás" dos itens digitados ou anexados*/
+    text-align: center;
+    /*a tag "text-align" é usada para que voce consiga posicionar o texto em algum local da pagina */
+    margin-bottom: 0px;
+    /*A tag "margin" é utilizada para nivelar a margem das seções presentes na página*/
 }
 
 .container {
@@ -20,8 +23,10 @@ title{
 
 .parágrafos {
     background-color: black;
-    color: white; /*a tag "color" é usado para mudar a cor do item digitado ou anexado em si*/
-    font-style: italic; /*A tag "font-style" ela retorna algumas opções onde voce pode alterar a fonte do que foi escrito*/
+    color: white;
+    /*a tag "color" é usado para mudar a cor do item digitado ou anexado em si*/
+    font-style: italic;
+    /*A tag "font-style" ela retorna algumas opções onde voce pode alterar a fonte do que foi escrito*/
     margin-top: 0px;
 }
 
@@ -29,20 +34,36 @@ title{
 /*Modificação na cor dos links*/
 
 
-a:link {color:#FF0000;} /*Link ainda não visitado*/
-a:visited{color:#00FF00} /*Link já visitado*/
-a:hover{color:#ff00ff} /*Mouse em cima do link*/
-a:active{color:#0000ff} /*Link Selecionado*/
+a:link {
+    color: #FF0000;
+}
+
+/*Link ainda não visitado*/
+a:visited {
+    color: #00FF00
+}
+
+/*Link já visitado*/
+a:hover {
+    color: #ff00ff
+}
+
+/*Mouse em cima do link*/
+a:active {
+    color: #0000ff
+}
+
+/*Link Selecionado*/
 
 h1 a:link, a:visited {
     background-color: #f44336;
     color: white;
     padding: 15px 25px;
     text-align: center;
-    text-decoration:none;
-    display:inline-block;
+    text-decoration: none;
+    display: inline-block;
 }
-      
+
 a:hover, a:active {
     background-color: red;
-}    
+}
